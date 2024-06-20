@@ -68,7 +68,7 @@ public class Controller implements Initializable{
     }
     @FXML
     public void link_func(ActionEvent event) throws IOException, URISyntaxException{
-        Desktop.getDesktop().browse(new URI("https://github.com/pixelgame239/intership1.git"));
+        Desktop.getDesktop().browse(new URI("https://github.com/pixelgame239/internship1.git"));
     }
     
 }
