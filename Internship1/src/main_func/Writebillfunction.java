@@ -26,6 +26,9 @@ public class Writebillfunction {
         try (BufferedWriter f_write = new BufferedWriter(new FileWriter("E:\\Homework\\Codefolder\\Java\\Internship1\\bill\\bill_" + cust_id + ".txt", true))){
             f_write.newLine();
             f_write.write("Total price: " + total_price);
+            String cur_date = Datefunction.get_curdate();
+            f_write.newLine();
+            f_write.write("Date: " + cur_date);
         }
         catch (IOException e){
             e.printStackTrace();
